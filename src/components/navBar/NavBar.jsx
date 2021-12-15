@@ -20,10 +20,10 @@ export const NavBar = () => {
           </Link>
           <nav>
             <input type="checkbox" id="menu-toggle" />
-            <label htmlFor="menu-toggle">
+            <label htmlFor="menu-toggle" className="bar-btn">
               <HiMenu />
             </label>
-            <ul>
+            <ul className="list-menu">
               <li>
                 <Link to="/">inicio</Link>
               </li>
