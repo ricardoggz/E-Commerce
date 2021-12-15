@@ -10,6 +10,9 @@ import { HiMenu } from "react-icons/hi";
 //styles
 import "./navBar.css";
 
+//Routes
+import { RoutesApp } from "../../routes/routes";
+
 export const NavBar = () => {
   return (
     <Router>
@@ -37,6 +40,7 @@ export const NavBar = () => {
           </nav>
         </div>
       </header>
+      <RoutesApp />
     </Router>
   );
 };
