@@ -1,0 +1,15 @@
+.grid-layout{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1.5rem;
+    padding: 5rem 0;
+
+}
+
+/*responsive*/
+@media (min-width:240px) and (max-width:880px){
+    .grid-layout{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

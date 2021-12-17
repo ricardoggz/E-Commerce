@@ -1,0 +1,41 @@
+.card {
+    box-shadow: 1px 2px 10px #08141e1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    border-radius: 5px;
+    text-align: justify;
+}
+.card figure{
+    width: 100%;
+    height: 10rem;
+    
+}
+
+.card figure img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    object-fit: contain;
+    background: var(--color-light-secondary);
+    padding: 1rem 0;
+
+}
+.card ul li{
+    list-style: none;
+}
+.card .button-card{
+    width: 100%;
+    padding: 0 1rem;
+}
+.card .card-description{
+    padding: 1rem;
+    line-height: 2.5rem;
+    width: 100%;
+}
+.card .card-description .price{
+    font-size:1.5rem;
+    color:var(--color-blue-primary);
+}

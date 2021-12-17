@@ -23,7 +23,7 @@ export const Hero = () => {
               @ricardo_guevarag
             </a>
           </p>
-          <Button title="Comenzar a aprender" />
+          <Button title="Regístrate gratis" />
         </div>
         <figure>
           <img src={imgHero} alt="loading img" />
