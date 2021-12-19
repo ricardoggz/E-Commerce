@@ -16,6 +16,7 @@ export const Card = (props) => {
           <li><b>{props.title}</b></li>
           <li>Contenido de video en línea</li>
           <li>Acceso de por vida al curso</li>
+          <li>Instructor: Ricardo Guevara</li>
           <li className="price"><i>{props.price}</i></li>
         </ul>
       </div>

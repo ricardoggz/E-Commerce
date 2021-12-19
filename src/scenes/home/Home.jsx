@@ -13,7 +13,7 @@ export const Home = () => {
   return (
     <>
       <Hero />
-      <SectionContainer title="Cursos principales">
+      <SectionContainer title="Cursos básicos">
         <GridLayout>
           <Card title="Curso de JavaScript" price="$149 mxn" img={jsLogo} />
           <Card title="Curso de HTML 5" price="$149 mxn" img={htmlLogo} />
