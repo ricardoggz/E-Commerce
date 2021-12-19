@@ -1,25 +1,22 @@
-.description-container{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 1rem;
-  align-items: center;
-  text-align: justify;
-  line-height: 2.5rem;
-}
-.description-container>figure> img{
-  width: 100%;
-}
 
 .mision-container{
   background:  var( --color-light-secondary);
 }
+.mision-container .hero-description{
+  line-height: 2.5rem;
+  text-align: justify;
+  font-size: 1.3rem;
+  font-style: italic;
+  color:var(--color-light-complementary);
+}
+.mision-container .button-hero{
+  width: 40%;
+}
 
 /*responsive*/
-
 @media (min-width:240px) and (max-width:880px){
-
-  .description-container{
-      grid-template-columns: repeat(1,1fr);
-      padding: 3rem 0;
+  .mision-container .button-hero{
+    width: 100%;
   }
+
 }

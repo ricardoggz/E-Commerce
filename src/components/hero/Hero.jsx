@@ -4,31 +4,26 @@ import React from "react";
 import "./hero.css";
 //components
 import { Button } from "../button/Button";
+import { SectionContainer } from "../sectionsContainer/Container";
 //img
 import imgHero from "../../img/herobg.png";
 
 export const Hero = () => {
   return (
     <section className="mision-container">
-      <div className="flex-container description-container">
-        <div>
-          <h1>Crea tu carrera en tecnología...</h1>
+      <SectionContainer title="Bienvenido a academia RG.DEV">
+        <div className="flex-container hero-description">
           <p>
-            Aprende sin límites, contamos con cursos donde te enseñamos las
-            tecnologías más demandadas del mercado.
+            Aprende las tecnologías más demandadas para el mundo del desarrollo
+            web, conviértete en un desarrollador fullstack, te
+            invito a formar parte de este proyecto, aprende en línea, a tu ritmo
+            y a precios accesibles...
           </p>
-          <p>
-            Una iniciativa de{" "}
-            <a href="https://github.com/ricardoggz" target="blank">
-              @ricardo_guevarag
-            </a>
-          </p>
-          <Button title="Regístrate gratis" />
+          <div className="button-hero">
+            <Button title="Regístrate gratis" />
+          </div>
         </div>
-        <figure>
-          <img src={imgHero} alt="loading img" />
-        </figure>
-      </div>
+      </SectionContainer>
     </section>
   );
 };

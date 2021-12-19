@@ -1,6 +1,7 @@
 import React from "react";
 //components
 import { Hero } from "../../components/hero/Hero";
+import { Description } from "../../components/description/Description";
 import { GridLayout } from "../../components/gridLayout/GridLayout";
 import { SectionContainer } from "../../components/sectionsContainer/Container";
 import { Card } from "../../components/card/Card";
@@ -13,11 +14,12 @@ export const Home = () => {
   return (
     <>
       <Hero />
-      <SectionContainer title="Cursos básicos">
+      <Description />
+      <SectionContainer title="Comienza a aprender gratis con estos cursos">
         <GridLayout>
-          <Card title="Curso de JavaScript" price="$149 mxn" img={jsLogo} />
-          <Card title="Curso de HTML 5" price="$149 mxn" img={htmlLogo} />
-          <Card title="Curso de CSS 3" price="$149 mxn" img={css3Logo} />
+          <Card title="Curso de JavaScript" price="$0 mxn" img={jsLogo} />
+          <Card title="Curso de HTML 5" price="$0 mxn" img={htmlLogo} />
+          <Card title="Curso de CSS 3" price="$0 mxn" img={css3Logo} />
         </GridLayout>
       </SectionContainer>
     </>

@@ -1,0 +1,16 @@
+.description-container {
+  width: 100%;
+  line-height: 2.5rem;
+  text-align: justify;
+  font-size: 1.3rem;
+  background: url("../../img/Background.jpg") center;
+  background-size: cover;
+  color: var(--color-light-primary);
+}
+.description-container .flex-container{
+    background: #08141edc;
+    padding: 1rem;
+}
+.description-container span{
+    color:var(--color-light-primary);
+}
