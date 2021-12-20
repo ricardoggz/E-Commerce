@@ -14,6 +14,7 @@ export const Description = () => {
             Crea sitios, páginas y aplicaciones
             web, arma un portafolio e impulsa tu carrera en el mundo del desarrollo.
           </p>
+          
         </div>
       </SectionContainer>
     </section>

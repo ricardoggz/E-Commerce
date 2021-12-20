@@ -6,11 +6,12 @@ import "./hero.css";
 import { Button } from "../button/Button";
 import { SectionContainer } from "../sectionsContainer/Container";
 //img
-import imgHero from "../../img/herobg.png";
+
 
 export const Hero = () => {
   return (
     <section className="mision-container">
+      <div className="hero-container-bg">
       <SectionContainer title="Bienvenido a academia RG.DEV">
         <div className="flex-container hero-description">
           <p>
@@ -24,6 +25,7 @@ export const Hero = () => {
           </div>
         </div>
       </SectionContainer>
+      </div>
     </section>
   );
 };

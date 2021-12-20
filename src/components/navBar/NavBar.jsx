@@ -28,13 +28,13 @@ export const NavBar = () => {
             </label>
             <ul className="list-menu">
               <li>
-                <Link to="/">inicio</Link>
+                <Link to="/">Inicio</Link>
               </li>
               <li>
-                <Link to="/cursos">cursos</Link>
+                <Link to="/cursos">Tienda</Link>
               </li>
               <li>
-                <Link to="/">iniciar sesión</Link>
+                <Link to="/">Iniciar sesión</Link>
               </li>
             </ul>
           </nav>

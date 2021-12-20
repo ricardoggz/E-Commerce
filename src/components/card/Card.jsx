@@ -20,10 +20,7 @@ export const Card = (props) => {
           <li className="price"><i>{props.price}</i></li>
         </ul>
       </div>
-      <div className="button-card">
-        {" "}
-        <Button title="Adquirir Curso" />
-      </div>
+      
     </div>
   );
 };

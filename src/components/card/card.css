@@ -36,6 +36,5 @@
     width: 100%;
 }
 .card .card-description .price{
-    font-size:1.5rem;
-    color:var(--color-blue-primary);
+    font-size:2rem;
 }
