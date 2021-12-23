@@ -1,28 +1,28 @@
-.mision-container {
-  background: url("../../img/herodevbg.png") center;
-background-size:cover;
+.section-hero {
+  background: var(--color-dark-primary) url("../../img/herodevbg.png") center;
+  background-size: cover;
 }
-.mision-container .hero-description {
+.section-hero .hero-description {
   line-height: 2.5rem;
   text-align: justify;
   font-size: 1.3rem;
   color: var(--color-light-primary);
 }
-.mision-container .button-hero {
+.section-hero .button-hero {
   width: 40%;
 }
-.mision-container span {
+.section-hero span {
   color: var(--color-light-primary);
 }
-.mision-container .hero-container-bg{
+.section-hero .hero-container-bg {
   width: 100%;
   height: auto;
-  background:#0f0f0f91;
+  background: #0f0f0f91;
 }
 
 /*responsive*/
 @media (min-width: 240px) and (max-width: 880px) {
-  .mision-container .button-hero {
+  .section-hero .button-hero {
     width: 100%;
   }
 }

@@ -10,7 +10,7 @@ import { SectionContainer } from "../sectionsContainer/Container";
 
 export const Hero = () => {
   return (
-    <section className="mision-container">
+    <section className="section-hero">
       <div className="hero-container-bg">
       <SectionContainer title="Bienvenido a academia RG.DEV">
         <div className="flex-container hero-description">
