@@ -26,9 +26,9 @@
 .card ul li{
     list-style: none;
 }
-.card .button-card{
-    width: 100%;
-    padding: 0 1rem;
+.card .name{
+   font-size:1.5rem;
+   font-style:bold;
 }
 .card .card-description{
     padding: 1rem;
