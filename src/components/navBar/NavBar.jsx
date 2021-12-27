@@ -34,7 +34,7 @@ export const NavBar = () => {
                 <Link to="/cursos">Tienda</Link>
               </li>
               <li>
-                <Link to="/">Iniciar sesión</Link>
+                <Link to="/iniciar-sesion">Iniciar sesión</Link>
               </li>
             </ul>
           </nav>
