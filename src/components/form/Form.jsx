@@ -11,7 +11,7 @@ export const Form = () => {
     <section className="login">
       <form className="form-container">
         <FiUser className="icon-form" />
-        <label className="title-form">Iniciar sesión</label>
+        <span className="title-form">Iniciar sesión</span>
         <label>Nombre de usuario</label>
         <input type="text" placeholder="Escribe tu nombre de usuario" />
         <label>Contraseña</label>
